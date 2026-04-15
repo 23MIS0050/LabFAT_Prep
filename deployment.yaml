@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: html-web-app
-        image: thamizhkarthik05/html-app:latest
+        image: thamizhkarthik05/html-web-app:latest
         ports:
-        - containerPort : 80
+        - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
